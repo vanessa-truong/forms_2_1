@@ -19,6 +19,7 @@ body {
 }
 
 
+
 .Contact_us {
     padding: 25px 150px;
     background-color: rgb(81, 218, 177);
@@ -26,6 +27,7 @@ body {
     border: 1px solid rgb(81, 218, 177);
     font-size: 26px;
     margin-left: 10px;
+
 
 }
 
@@ -51,6 +53,10 @@ body {
     height: 100px;
 }
 
+.textarea:focus {
+    outline: 1px solid black;
+}
+
 .send {
     width: 400px;
     height: 45px;
@@ -62,6 +68,12 @@ body {
 
 .send:hover {
     background-color: rgb(48, 136, 109);
+}
+
+
+section div:nth-of-type(1) {
+    text-align: center;
+    padding-right: 8px;
 }
 
 section {
