@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.fontfamily {
+    font-family: 'roboto';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+
+.Contact_us {
+    padding: 25px 150px;
+    background-color: rgb(81, 218, 177);
+    color: white;
+    border: 1px solid rgb(81, 218, 177);
+    font-size: 26px;
+    margin-left: 10px;
+
+}
+
+
+
+.button {
+    width: 400px;
+    height: 45px;
+    margin: 15px 10px;
+    padding-left: 15px;
+}
+
+.button:focus {
+    outline: 1px solid black;
+}
+
+.textarea {
+    font-family: 'roboto';
+    width: 400px;
+    margin: 15px 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 100px;
+}
+
+.send {
+    width: 400px;
+    height: 45px;
+    margin: 5px 10px;
+    background-color: rgb(81, 218, 177);
+    border: 1px solid rgb(81, 218, 177);
+    color: white;
+}
+
+.send:hover {
+    background-color: rgb(48, 136, 109);
+}
+
+section {
+    display: inline-block;
+    background-color: rgb(246, 246, 239);
+    margin: 5px 10px;
+}
+
+section div:nth-of-type(2) {
+    text-align: center;
+}
+
+section div:nth-of-type(3) {
+    text-align: center;
+}
+
+section div:nth-of-type(4) {
+    text-align: center;
+}
+
+section div:nth-of-type(5) {
+    text-align: center;
+
+}
